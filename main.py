@@ -157,7 +157,7 @@ class DataFetcher:
     ) -> Tuple[Optional[str], str, str]:
         """获取指定ID数据，支持重试"""
         if isinstance(id_info, tuple):
-            id_value, alias = id_info
+        id_value, alias = id_info
         else:
             id_value = id_info
             alias = id_value
@@ -2451,8 +2451,10 @@ class NewsAnalyzer:
             ("ifeng", "凤凰网"),
             "tieba",
             "weibo",
-            "douyin",
             "zhihu",
+            "linuxdo",
+            "v2ex",
+            "wallstreetcn",
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
