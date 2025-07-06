@@ -2455,6 +2455,13 @@ class NewsAnalyzer:
             "linuxdo",
             "v2ex",
             "wallstreetcn",
+            "hupu",
+            "thepaper",
+            "sputniknewscn",
+            "zaobao",
+            "smzdm",
+            "github",
+            "hakernews",
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
